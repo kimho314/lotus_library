@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: lotus_library
+
+server:
+    port: 8080
+    servlet:
+        encoding:
+            enabled: true
+            charset: UTF-8
+    tomcat:
+        uri-encoding: UTF-8
